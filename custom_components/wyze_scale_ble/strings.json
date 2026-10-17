@@ -1,0 +1,61 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "This scale is already configured.",
+      "no_devices_found": "No original Wyze Scale was discovered. Wake the scale and try again."
+    },
+    "error": {
+      "invalid_bind_token": "Bind token must be exactly 16 characters.",
+      "invalid_device_key": "Device key must be 16 or 32 hex characters."
+    },
+    "step": {
+      "bluetooth_confirm": {
+        "description": "Set up {name}?",
+        "title": "Discovered Wyze Scale"
+      },
+      "user": {
+        "data": {
+          "address": "Scale"
+        },
+        "description": "Wake the scale, then select it below.",
+        "title": "Add Wyze Scale"
+      },
+      "init": {
+        "data": {
+          "bind_token": "Cloud bind token (16 chars, optional)",
+          "device_key": "Device key (hex, optional)"
+        },
+        "description": "Authentication tokens from the Wyze scale service. The scale only streams measurements after a successful handshake.",
+        "title": "Wyze Scale BLE options"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "live_weight": {
+        "name": "Live weight"
+      },
+      "raw_packet": {
+        "name": "Last raw packet"
+      },
+      "weight": {
+        "name": "Weight"
+      },
+      "body_fat": {
+        "name": "Body fat"
+      },
+      "muscle_mass": {
+        "name": "Muscle mass"
+      },
+      "body_water": {
+        "name": "Body water"
+      },
+      "protein": {
+        "name": "Protein"
+      },
+      "bone_mass": {
+        "name": "Bone mass"
+      }
+    }
+  }
+}

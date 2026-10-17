@@ -1,0 +1,16 @@
+{
+  "domain": "wyze_scale_ble",
+  "name": "Wyze Scale BLE",
+  "bluetooth": [
+    {
+      "service_uuid": "636f6d2e-6a69-7561-6e2e-424653563231"
+    }
+  ],
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://github.com/oliexdev/openScale/issues/853",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "version": "0.1.0"
+}
